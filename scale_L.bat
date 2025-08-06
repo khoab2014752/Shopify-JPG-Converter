@@ -31,7 +31,7 @@ for %%F in ("%inputFolder%\*.jpg" "%inputFolder%\*.jpeg" "%inputFolder%\*.png" "
         -resize 145%% ^
         -background white ^
         -gravity center ^
-        -extent 1800x2600+0-150 ^
+        -extent 1800x2600+0-100 ^
         "!filename!.jpg"
         
         REM Check if conversion was successful before deleting
